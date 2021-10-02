@@ -4,3 +4,8 @@ body {
 .carousel-item {
     max-height: 100vh;
 }
+.logo {
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+}
