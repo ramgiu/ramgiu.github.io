@@ -337,7 +337,7 @@
 /* age function
     * ------------------------------------------------------ */
 
-        var birth = new Date('1990-05-12');
+        var birth = new Date('1990-11-02');
         var now = new Date();
         var difference = now - birth;
         var age = new Date(difference).getFullYear() - 1970
