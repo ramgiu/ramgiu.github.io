@@ -154,8 +154,8 @@
             
             return false;
         });
-    };
 
+    };
 
 
    /* photoswipe
