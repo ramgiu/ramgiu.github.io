@@ -3500,3 +3500,9 @@ html.no-csstransitions .hero-content {
   margin-right: 40px;
   margin-top: 20px;
 }
+
+@media screen and (max-width:1040px) {
+  .expertise-list {
+    margin-top: 70px;
+  }
+}
