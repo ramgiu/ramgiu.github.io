@@ -3523,5 +3523,6 @@ html.no-csstransitions .hero-content {
 
 .under-construction-page {
   background: #4b52db;
+  overflow: hidden;
 }
 
