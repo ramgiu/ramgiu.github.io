@@ -3512,3 +3512,16 @@ html.no-csstransitions .hero-content {
     margin-top: 70px;
   }
 }
+
+.under-construction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #4b52db;
+}
+
+.under-construction-page {
+  background: #4b52db;
+}
+
