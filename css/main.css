@@ -3530,6 +3530,12 @@ html.no-csstransitions .hero-content {
 .title-construccion {
   color: white;
   font-weight: bold;
-  font-size: 24px;
-  font-family: sans-serif;
+  font-size: 48px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (max-width:1040px) {
+  .title-construccion {
+    font-size: 24px;
+  }
 }
