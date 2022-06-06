@@ -3518,12 +3518,12 @@ html.no-csstransitions .hero-content {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #4b52db;
+  background: #4651e0;
   flex-direction: column;
 }
 
 .under-construction-page {
-  background: #4b52db;
+  background: #4651e0;
   overflow: hidden;
 }
 
@@ -3532,10 +3532,16 @@ html.no-csstransitions .hero-content {
   font-weight: bold;
   font-size: 48px;
   font-family: 'Fira Sans', sans-serif;
+  margin-bottom: -10px;
 }
 
 @media screen and (max-width:1040px) {
   .title-construccion {
     font-size: 24px;
   }
+}
+#demo {
+  color: #ffaeab;
+  font-size: 36px;
+  font-family: 'Fira Sans', sans-serif;
 }
