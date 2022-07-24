@@ -2664,7 +2664,7 @@ html.no-csstransitions .hero-content {
   padding-top: 2.4rem;
   padding-bottom: 2.4rem;
   padding-right: 6rem;
-  cursor: pointer;
+  /*cursor: pointer;*/ 
   position: relative;
 }
 
@@ -2689,7 +2689,7 @@ html.no-csstransitions .hero-content {
   top: .5em;
   left: 0;
 }
-
+/*
 .services-list__item-header::after {
   border-bottom: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
@@ -2709,7 +2709,7 @@ html.no-csstransitions .hero-content {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
+*/
 .services-list__item-body {
   padding-top: 1.2rem;
   padding-left: 4rem;
@@ -3535,13 +3535,17 @@ html.no-csstransitions .hero-content {
   margin-bottom: -10px;
 }
 
-@media screen and (max-width:1040px) {
-  .title-construccion {
-    font-size: 24px;
-  }
-}
 #demo {
   color: #ffaeab;
   font-size: 36px;
   font-family: 'Fira Sans', sans-serif;
+}
+
+@media screen and (max-width:1040px) {
+  .title-construccion {
+    font-size: 24px;
+  }
+  #demo {
+    font-size: 18px;
+  }
 }

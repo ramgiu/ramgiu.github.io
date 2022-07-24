@@ -139,7 +139,7 @@
 
         $allPanels.slice(1).hide();
 
-        $allItems.on('click', '.services-list__item-header', function() {
+        $allItems.on('clicks', '.services-list__item-header', function() {
 
             const $this = $(this),
                   $curItem = $this.parent(),
